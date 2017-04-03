@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">UdacityQuizAppAlpha</string>
+    <string name="quiz_completion_greeting">Congrats, you passed the test</string>
+    <string name="first_question">Which logo is Udacity</string>
+    <string name="second_question">Can you recognise the Apple logo?</string>
+    <string name="third_question">Which of the following applies to the onDraw() method of class View?</string>
+    <string name="question_five">What is the capital of Silicon Valley?</string>
+
+    <string name="answer_one">It must be overridden if a customized drawing of a view is required</string>
+    <string name="answer_two">It takes two parameters: a Canvas and a View</string>
+    <string name="answer_three">It takes one parameter of type Canvas</string>
+    <string name="answer_four">It uses the Canvas parameter to draw the border of the activity that contains it</string>
+
 </resources>

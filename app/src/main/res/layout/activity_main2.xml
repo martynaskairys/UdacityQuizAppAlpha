@@ -17,6 +17,19 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="56dp"
+            android:layout_width="wrap_content"
+            android:text="@string/your_score_is"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
             android:id="@+id/score2"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
@@ -24,24 +37,13 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="32dp"
             android:layout_width="wrap_content"
-            android:text="0"
+            android:text="@string/result_in_numbers"
             android:textSize="46sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="32dp"
-            android:layout_width="wrap_content"
-            android:text="YOUR SCORE IS"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
         <Button
             android:id="@+id/button8"
@@ -52,7 +54,7 @@
             android:layout_marginTop="32dp"
             android:layout_width="wrap_content"
             android:onClick="restart"
-            android:text="restart"
+            android:text="@string/restart"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/score2" />

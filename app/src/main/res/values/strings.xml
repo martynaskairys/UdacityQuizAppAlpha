@@ -10,5 +10,11 @@
     <string name="answer_two">It takes two parameters: a Canvas and a View</string>
     <string name="answer_three">It takes one parameter of type Canvas</string>
     <string name="answer_four">It uses the Canvas parameter to draw the border of the activity that contains it</string>
+    <string name="write_your_answer">write your answer</string>
+    <string name="submit_answers">submit answers</string>
+    <string name="your_score_is">YOUR SCORE IS</string>
+    <string name="result_in_numbers">0</string>
+    <string name="restart">restart</string>
+    <string name="quiz_failure_greeting">You failed. Try again</string>
 
 </resources>

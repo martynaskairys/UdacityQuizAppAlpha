@@ -1,12 +1,49 @@
 <resources>
     <string name="app_name">UdacityQuizAppAlpha</string>
     <string name="quiz_completion_greeting">Congrats, you passed the test</string>
-    <string name="first_question">Which logo is Udacity</string>
-    <string name="second_question">Can you recognise the Apple logo?</string>
-    <string name="third_question">Which of the following applies to the onDraw() method of class View?</string>
-    <string name="question_five">What is the capital of Silicon Valley?</string>
 
-    <string name="answer_one">It must be overridden if a customized drawing of a view is required</string>
+    <string name="first_question">Shows parameters needed</string>
+    <string name="second_question">Expand all methods</string>
+    <string name="third_question">Collapse all methods</string>
+    <string name="question_five">Quick documentation</string>
+
+    <string name="answer_one_apple">Cmd p</string>
+    <string name="answer_one_windows">Ctrl p</string>
+
+    <string name="answer_two_apple">Cmd upArrow +</string>
+    <string name="answer_two_windows">Ctrl upArrow +</string>
+
+    <string name="answer_three_apple">Cmd upArrow -</string>
+    <string name="answer_three_windows">Ctrl upArrow -</string>
+
+    <string name="answer_four_apple">F1 or fn F1</string>
+    <string name="answer_four_windows">Ctrl q</string>
+
+    <string name="answer_five_apple">Cmd p</string>
+    <string name="answer_five_windows">Ctrl p</string>
+
+    <string name="answer_six_apple">Cmd p</string>
+    <string name="answer_six_windows">Ctrl p</string>
+
+    <string name="answer_seven_apple">Cmd p</string>
+    <string name="answer_seven_windows">Ctrl p</string>
+
+    <string name="answer_eight_apple">Cmd p</string>
+    <string name="answer_eight_windows">Ctrl p</string>
+
+    <string name="answer_ten_apple">Cmd p</string>
+    <string name="answer_ten_windows">Ctrl p</string>
+
+    <string name="answer_eleven_apple">Cmd p</string>
+    <string name="answer_eleven_windows">Ctrl p</string>
+
+    <string name="first_question_quiz">Which logo is Udacity</string>
+    <string name="second_question_quiz">Can you recognise the Apple logo?</string>
+    <string name="third_question_quiz">Which of the following applies to the onDraw() method of class View?</string>
+    <string name="question_five_quiz">What is the capital of Silicon Valley?</string>
+
+
+
     <string name="answer_two">It takes two parameters: a Canvas and a View</string>
     <string name="answer_three">It takes one parameter of type Canvas</string>
     <string name="answer_four">It uses the Canvas parameter to draw the border of the activity that contains it</string>
@@ -16,5 +53,40 @@
     <string name="result_in_numbers">0</string>
     <string name="restart">restart</string>
     <string name="quiz_failure_greeting">You failed. Try again</string>
+    <string name="choosing_software_brand">Which one are you</string>
+    <string name="answer_one_apple_wrong_a">Alt p</string>
+    <string name="answer_one_apple_wrong_b">Ctrl p</string>
+
+    <string name="description_example">description info</string>
+    <string name="quiz">Quiz</string>
+    <string name="time_battle">time battle</string>
+    <string name="quick_documentation">Quick documentation</string>
+    <string name="delete_line">Delete line</string>
+    <string name="delete">delete</string>
+    <string name="cmd_delete">Cmd delete</string>
+    <string name="delete_back_arrow">delete back arrow</string>
+    <string name="copy_line">Copy line</string>
+    <string name="cmd_c">Cmd c</string>
+    <string name="ctr_c">Ctr c</string>
+    <string name="alt_c">alt c</string>
+    <string name="comment_line">Comment line</string>
+    <string name="cmd">Cmd -</string>
+    <string name="cmd_">Cmd /</string>
+    <string name="cmd__">Cmd .</string>
+    <string name="rename">Rename</string>
+    <string name="cmd_r">Cmd r</string>
+    <string name="alt_r">Alt r</string>
+    <string name="uparrow_f6">upArrow f6</string>
+    <string name="extract_method">Extract method</string>
+    <string name="alt_cmd_m">Alt cmd m</string>
+    <string name="f1">F1</string>
+    <string name="f2">F2</string>
+    <string name="f3">F3</string>
+    <string name="time_per_quiz">Time per Quiz</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="restart_">Restart</string>
+    <string name="show_history">Show history</string>
+    <string name="cmd_m">Cmd m</string>
+    <string name="alt_m">Alt m</string>
 
 </resources>

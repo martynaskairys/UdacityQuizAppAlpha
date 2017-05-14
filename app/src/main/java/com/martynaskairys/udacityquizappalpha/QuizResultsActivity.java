@@ -9,26 +9,21 @@ import android.widget.Toast;
 
 import static com.martynaskairys.udacityquizappalpha.R.id.score2;
 
-public class Main2Activity extends AppCompatActivity {
+public class QuizResultsActivity extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
-
+        setContentView(R.layout.activity_quiz_results);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             int numberOfQuestionsCorrect = extras.getInt("SCORE");
 
-            if (numberOfQuestionsCorrect >= 2)
-
-            {
-
+            if (numberOfQuestionsCorrect >= 2) {
                 Toast.makeText(this, R.string.quiz_completion_greeting, Toast.LENGTH_SHORT).show();
-            }
-else {
+            } else {
                 Toast.makeText(this, R.string.quiz_failure_greeting, Toast.LENGTH_SHORT).show();
             }
 
@@ -37,15 +32,9 @@ else {
         }
     }
 
-
     public void restart(View view) {
-
-
-        Intent i = new Intent(Main2Activity.this, MainActivity.class);
+        Intent i = new Intent(QuizResultsActivity.this, StartActivity.class);
         startActivity(i);
-
-
+        finish();
     }
-
-
 }

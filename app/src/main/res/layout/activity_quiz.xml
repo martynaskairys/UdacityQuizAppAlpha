@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.martynaskairys.udacityquizappalpha.MainActivity">
+    tools:context="com.martynaskairys.udacityquizappalpha.QuizActivity">
 
     <ScrollView
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="16dp"
-                android:text="@string/first_question"
+                android:text="@string/first_question_quiz"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -46,6 +46,7 @@
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/description_example"
                         android:padding="16dp"
 
                         android:src="@drawable/logo1" />
@@ -55,12 +56,14 @@
                         android:layout_height="100dp"
                         android:layout_weight="1"
                         android:padding="16dp"
+                        android:contentDescription="@string/description_example"
                         android:src="@drawable/logo2" />
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/description_example"
                         android:padding="16dp"
 
                         android:src="@drawable/logo3" />
@@ -126,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="16dp"
-                android:text="@string/second_question"
+                android:text="@string/second_question_quiz"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -145,6 +148,7 @@
 
                     <ImageView
                         android:layout_width="0dp"
+                        android:contentDescription="@string/description_example"
                         android:layout_height="100dp"
                         android:layout_weight="1"
                         android:padding="16dp"
@@ -153,6 +157,7 @@
 
                     <ImageView
                         android:layout_width="0dp"
+                        android:contentDescription="@string/description_example"
                         android:layout_height="100dp"
                         android:layout_weight="1"
                         android:padding="16dp"
@@ -162,6 +167,7 @@
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/description_example"
                         android:padding="16dp"
 
                         android:src="@drawable/logo3" />
@@ -228,7 +234,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="16dp"
-                android:text="@string/third_question"
+                android:text="@string/third_question_quiz"
                 android:textStyle="bold" />
 
 
@@ -250,7 +256,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="8dp"
-                    android:text="@string/answer_one" />
+                    android:text="@string/answer_one_apple" />
 
                 <View
                     android:layout_width="0dip"
@@ -300,7 +306,7 @@
                 android:layout_gravity="center"
                 android:padding="32dp"
 
-                android:text="@string/question_five"
+                android:text="@string/question_five_quiz"
                 android:textStyle="bold"
 
                 app:layout_constraintBottom_toBottomOf="parent"
